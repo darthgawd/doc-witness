@@ -34,7 +34,7 @@ echo "fs.file-max = 2097152" >> /etc/sysctl.conf
 sysctl -p
 
 # INSTALL IPFS
-wget https://dist.ipfs.io/go-ipfs/v0.6.0/go-ipfs_v0.6.0_linux-amd64.tar.gz
+wget https://www.dist.ipfs.io/go-ipfs/v0.6.0/go-ipfs_v0.6.0_linux-amd64.tar.gz
 tar -xvzf go-ipfs_v0.6.0_linux-amd64.tar.gz
 cd go-ipfs
 sudo bash install.sh
